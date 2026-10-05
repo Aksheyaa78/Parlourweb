@@ -1,4 +1,8 @@
 import { Service, Stylist, BridalPackage, Testimonial, TransformationItem } from '../types';
+import hairStylingImg from '../assets/images/service_hair_styling_1791194596048.jpg';
+import skincareFacialImg from '../assets/images/service_skincare_facial_1791194624268.jpg';
+import bridalGlamourImg from '../assets/images/service_bridal_glamour_1791194635313.jpg';
+import nailArtistryImg from '../assets/images/service_nail_artistry_1791194653664.jpg';
 
 export const SALON_INFO = {
   name: 'Élixir & Aura',
@@ -31,7 +35,7 @@ export const SERVICES: Service[] = [
     price: 320,
     description: 'Custom hand-painted multidimensional light reflection tailored to your bone structure and natural base, finished with an organic silk gloss and bond-strengthening seal.',
     includes: ['Bespoke tonal color consultation', 'Hand-painted micro-foil placement', 'Bio-keratin gloss bath', 'Blowout & signature wave styling'],
-    image: '/src/assets/images/service_hair_styling_1791194596048.jpg',
+    image: hairStylingImg,
     popular: true,
     tag: 'Signature Service',
   },
@@ -43,7 +47,7 @@ export const SERVICES: Service[] = [
     price: 145,
     description: 'Dry or wet geometric precision cut sculpted to your natural hair growth patterns, accompanied by a clarifying detox scalp massage.',
     includes: ['Scalp analysis & organic clay mask', 'Relaxing pressure point wash', 'Precision shears & texturizing work', 'Dyson Supersonic velocity finish'],
-    image: '/src/assets/images/service_hair_styling_1791194596048.jpg',
+    image: hairStylingImg,
     popular: false,
     tag: 'Essential Care',
   },
@@ -66,7 +70,7 @@ export const SERVICES: Service[] = [
     price: 260,
     description: 'Medical-grade vortex infusion and diamond dermabrasion that painlessly extracts impurities while saturating the dermis with peptide cocktails and antioxidant hyaluronic serums.',
     includes: ['Ultrasonic lymphatic drainage', 'Glycolic & salicylic peel', 'Targeted peptide infusion', 'Red light LED collagen therapy'],
-    image: '/src/assets/images/service_skincare_facial_1791194624268.jpg',
+    image: skincareFacialImg,
     popular: true,
     tag: 'Instant Radiance',
   },
@@ -78,7 +82,7 @@ export const SERVICES: Service[] = [
     price: 240,
     description: 'Non-invasive facial workout stimulating 43 facial muscles using targeted microcurrents paired with refrigerated green jade and bianstone sculpting.',
     includes: ['Double botanical oil cleanse', 'Fascia release massage', 'Microcurrent contouring', 'Cooling marine algae hydro-jelly mask'],
-    image: '/src/assets/images/service_skincare_facial_1791194624268.jpg',
+    image: skincareFacialImg,
     popular: false,
   },
   {
@@ -99,7 +103,7 @@ export const SERVICES: Service[] = [
     price: 360,
     description: 'Private 2.5-hour styling exploration in our private VIP suite. We test veil placements, accessory integration, and long-wear weatherproof dewy complexion formulation.',
     includes: ['Two distinct hair styling looks', 'High-definition airbrush makeup trial', 'Lash mapping & customized faux mink sets', 'Polaroid and high-res lighting review'],
-    image: '/src/assets/images/service_bridal_glamour_1791194635313.jpg',
+    image: bridalGlamourImg,
     popular: true,
     tag: 'Bridal Must-Have',
   },
@@ -111,7 +115,7 @@ export const SERVICES: Service[] = [
     price: 520,
     description: 'Dedicated master artist reserving exclusive presence on your wedding morning. Includes luxury skin prep, touch-up kit, veil pinning, and shoulder decollete contouring.',
     includes: ['24k gold eye revival pads', 'Waterproof 18-hour makeup application', 'Architectural bridal updo or Hollywood waves', 'Luxury bridal touch-up clutch'],
-    image: '/src/assets/images/service_bridal_glamour_1791194635313.jpg',
+    image: bridalGlamourImg,
     popular: true,
   },
   {
@@ -122,7 +126,7 @@ export const SERVICES: Service[] = [
     price: 95,
     description: 'Non-toxic, builder gel strengthening treatment paired with bespoke minimalist nail art (chrome, pearl dust, or French micro-tips) and warm botanical shea butter dip.',
     includes: ['Russian dry cuticle refinement', 'Japanese builder gel overlay', 'Minimalist hand-painted nail design', 'Warm lavender paraffin wrap'],
-    image: '/src/assets/images/service_nail_artistry_1791194653664.jpg',
+    image: nailArtistryImg,
     popular: true,
     tag: 'Zero Damage',
   },
@@ -134,7 +138,7 @@ export const SERVICES: Service[] = [
     price: 110,
     description: 'Restorative copper basin foot soak with Himalayan salts, rosemary exfoliation, hot basalt stone calf massage, and chip-free gel lacquer.',
     includes: ['Herbal foot soak', 'Dead sea scrub & callus refining', 'Hot stone foot & calf massage', 'Long-wear gel lacquer'],
-    image: '/src/assets/images/service_nail_artistry_1791194653664.jpg',
+    image: nailArtistryImg,
     popular: false,
   },
   {

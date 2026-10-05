@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { TRANSFORMATIONS } from '../data/salonData';
 import { Clock, User, Sparkles, ArrowRight } from 'lucide-react';
+import hairStylingImg from '../assets/images/service_hair_styling_1791194596048.jpg';
+import skincareFacialImg from '../assets/images/service_skincare_facial_1791194624268.jpg';
 
 interface BeforeAfterSliderProps {
   onBookService: (serviceName: string) => void;
@@ -18,12 +20,12 @@ export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({ onBookServ
     {
       // Balayage
       before: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80',
-      after: '/src/assets/images/service_hair_styling_1791194596048.jpg',
+      after: hairStylingImg,
     },
     {
       // Skin
       before: 'https://images.unsplash.com/photo-1512290900672-1f55b6d92582?auto=format&fit=crop&w=800&q=80',
-      after: '/src/assets/images/service_skincare_facial_1791194624268.jpg',
+      after: skincareFacialImg,
     },
     {
       // French Bob

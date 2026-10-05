@@ -1,5 +1,6 @@
 import React from 'react';
 import { Calendar, Sparkles, ArrowRight, ShieldCheck, Award, Heart } from 'lucide-react';
+import heroImg from '../assets/images/hero_luxury_beauty_salon_1791194579717.jpg';
 
 interface HeroProps {
   onOpenBooking: () => void;
@@ -91,7 +92,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenQuiz }) => {
           <div className="lg:col-span-6 relative">
             <div className="relative aspect-[16/10] sm:aspect-[16/11] rounded-2xl overflow-hidden shadow-2xl bg-stone-100 border border-stone-200/60">
               <img
-                src="/src/assets/images/hero_luxury_beauty_salon_1791194579717.jpg"
+                src={heroImg}
                 alt="Élixir & Aura salon interior with travertine counters and soft ambient lighting"
                 className="w-full h-full object-cover object-center transform hover:scale-[1.02] transition-transform duration-700"
                 referrerPolicy="no-referrer"

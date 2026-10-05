@@ -1,6 +1,7 @@
 import React from 'react';
 import { BRIDAL_PACKAGES } from '../data/salonData';
 import { Sparkles, Check, Clock, Calendar, Heart, Shield } from 'lucide-react';
+import bridalGlamourImg from '../assets/images/service_bridal_glamour_1791194635313.jpg';
 
 interface BridalSectionProps {
   onOpenBookingForBridal: (serviceId?: string) => void;
@@ -41,7 +42,7 @@ export const BridalSection: React.FC<BridalSectionProps> = ({ onOpenBookingForBr
           <div className="lg:col-span-6">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl bg-stone-200 border border-stone-200/80">
               <img
-                src="/src/assets/images/service_bridal_glamour_1791194635313.jpg"
+                src={bridalGlamourImg}
                 alt="Bridal atelier hairstyle and luminous dewy makeup"
                 className="w-full h-full object-cover object-center"
                 referrerPolicy="no-referrer"
